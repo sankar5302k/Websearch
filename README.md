@@ -2,7 +2,7 @@
 
 A powerful document processing engine that combines Tesseract OCR with local LLM capabilities (via Ollama) to extract, summarize, and interact with text from images and PDFs.
 
-## 🚀 Features
+##  Features
 
 - **Universal OCR**: Support for both images (PNG, JPG, etc.) and PDF documents.
 - **Pre-processing**: Automatic image cleaning (grayscale, thresholding) for better OCR accuracy.
@@ -12,7 +12,7 @@ A powerful document processing engine that combines Tesseract OCR with local LLM
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The project is split into two main components:
 1.  **`ocr.py`**: The core engine handling text extraction and image processing.
@@ -40,7 +40,7 @@ The primary class for all OCR operations.
 
 ---
 
-## 🛠️ Pipelines
+##  Pipelines
 
 ### A. Document Analysis Pipeline
 This pipeline is triggered when selecting Option 1 in the menu.
@@ -72,7 +72,7 @@ graph LR
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 1.  **Tesseract OCR**: Install Tesseract on your system.
     - [Download for Windows](https://github.com/UB-Mannheim/tesseract/wiki)
@@ -95,7 +95,7 @@ graph LR
     pip install pytesseract opencv-python pymupdf numpy requests
     ```
 
-## ⚙️ Configuration
+##  Configuration
 
 In `sample.py`, ensure the following paths match your system:
 - `tesseract_cmd`: Path to `tesseract.exe`.
@@ -104,7 +104,7 @@ In `sample.py`, ensure the following paths match your system:
 
 ---
 
-## 🖥️ Usage
+##  Usage
 
 Run the main application:
 ```bash
